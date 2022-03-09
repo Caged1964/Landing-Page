@@ -1,0 +1,34 @@
+/* Elements */
+body{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+}
+/* Classes */
+.header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 11px 170px 190px 170px;
+}
+.header-1{
+    display: flex;
+    justify-content: space-between;
+}
+.header-2{
+    display: flex;
+    justify-content: space-between;
+}
+.header-text{
+    width: 750px;
+}
+.footer{
+    background-color: #1F2937;
+}
+.quote{
+    background-color: #E5E7EB;
+}
