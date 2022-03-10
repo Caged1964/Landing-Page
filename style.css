@@ -3,20 +3,31 @@ body{
     display: flex;
     flex-direction: column;
 }
+button{
+    background-color: #3882f6;
+    padding : 7px 25px;
+    border-radius: 12px;
+    font-size: 16px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 0;
+}
 ul{
     list-style-type: none;
     display: flex;
-    gap: 12px;
+    gap: 25px;
 }
 /* Classes */
 .header{
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 11px 170px 190px 170px;
+    padding: 11px 200px 170px 200px;
+    color: #f9faf8
 }
 .header-1{
     display: flex;
+    margin: 0 0 60px;
     justify-content: space-between;
 }
 .header-2{
@@ -25,6 +36,22 @@ ul{
 }
 .header-text{
     width: 750px;
+}
+.header-logo{
+    font-size: 24px;
+}
+.header-main{
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin:0;
+}
+.header-link, .header-para{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.header-img{
+    height: 300px;
+    width: 600px;
 }
 .footer{
     background-color: #1F2937;
