@@ -1,115 +1,145 @@
 /* Elements */
-body{
-    display: flex;
-    flex-direction: column;
+body {
+  display: flex;
+  flex-direction: column;
 }
-button{
-    background-color: #3882f6;
-    padding : 7px 25px;
-    border-radius: 12px;
-    font-size: 16px;
-    color: #f9faf8;
-    font-weight: bold;
-    border: 0;
+button {
+  background-color: #3882f6;
+  padding: 7px 25px;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #f9faf8;
+  font-weight: bold;
+  border: 0;
 }
-ul{
-    list-style-type: none;
-    display: flex;
-    gap: 25px;
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
 }
 /* Classes */
 /* -----------Header-------------- */
-.header{
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 11px 200px 170px 200px;
-    color: #f9faf8
+.header {
+  background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 11px 200px 170px 200px;
+  color: #f9faf8;
 }
-.header-1{
-    display: flex;
-    margin: 0 0 60px;
-    justify-content: space-between;
+.header-1 {
+  display: flex;
+  margin: 0 0 60px;
+  justify-content: space-between;
 }
-.header-2{
-    display: flex;
-    justify-content: space-between;
+.header-2 {
+  display: flex;
+  justify-content: space-between;
 }
-.header-text{
-    width: 750px;
+.header-text {
+  width: 750px;
 }
-.header-logo{
-    font-size: 24px;
+.header-logo {
+  font-size: 24px;
 }
-.header-main{
-    font-size: 48px;
-    font-weight: extra-bold;
-    margin:0;
+.header-main {
+  font-size: 48px;
+  font-weight: extra-bold;
+  margin: 0;
 }
-.header-link, .header-para{
-    color: #e5e7eb;
-    font-size: 18px;
+.header-link,
+.header-para {
+  color: #e5e7eb;
+  font-size: 18px;
 }
-.header-img{
-    height: 300px;
-    width: 600px;
+.header-img {
+  height: 300px;
+  width: 600px;
 }
 /* ---------------info------------------ */
-.info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 25px 0 100px 0;
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 0 100px 0;
 }
-.info-body{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin: 30px;
+.info-body {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin: 30px;
 }
-.info-header{
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1f2937;
+.info-header {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #1f2937;
 }
-.info-img{
-    height: 200px;
-    width: 200px;
-    border-radius: 8px;
-    margin-bottom: 5px;
+.info-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 5px;
 }
-.info-img-1,.info-img-2, .info-img-3, .info-img-4{
-    width: 200px;
-    text-align: center;
+.info-img-1,
+.info-img-2,
+.info-img-3,
+.info-img-4 {
+  width: 200px;
+  text-align: center;
 }
 /* ----------------------quotes-------------------------*/
-.quote{
-    background-color: #E5E7EB;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 110px 305px 90px;
-    flex-wrap: wrap;
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 110px 305px 90px;
+  flex-wrap: wrap;
 }
-.bywhom{
-    align-self: flex-end;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0;
+.bywhom {
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
 }
-.quote-para{
-    margin: 0;
-    padding: 0;
-    padding-bottom: 8px;
-    font-size: 36px;
-    font-weight: lighter;
-    font-style: italic;
-    color: #1F2937;
+.quote-para {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 8px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1f2937;
 }
-
+/* -----------------------cta---------------------- */
+.cta {
+  padding: 90px;
+  color: #f9faf8;
+}
+.cta-button{
+    border: 1px solid #f9faf8;
+    height: 40px;
+    align-self: center;
+}
+.cta-container {
+  padding: 50px 55px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: space-around;
+  background-color: #3882f6;
+  width: 1000px;
+  margin: auto;
+}
+.cta-head{
+    margin: 7px 0;
+    font-size: 24px;
+}
+.cta-para{
+    font-size: 18px;
+    margin: 7px 0;
+}
 /* -----------------------footer------------------------ */
-.footer{
-    background-color: #1F2937;
+.footer {
+  background-color: #1f2937;
 }
