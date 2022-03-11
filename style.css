@@ -18,7 +18,7 @@ ul{
     gap: 25px;
 }
 /* Classes */
-/* -------------Header-------------- */
+/* -----------Header-------------- */
 .header{
     background-color: #1F2937;
     display: flex;
@@ -54,7 +54,7 @@ ul{
     height: 300px;
     width: 600px;
 }
-/* ---------------info---------------------- */
+/* ---------------info------------------ */
 .info{
     display: flex;
     flex-direction: column;
@@ -82,10 +82,34 @@ ul{
 .info-img-1,.info-img-2, .info-img-3, .info-img-4{
     width: 200px;
     text-align: center;
-} 
-.footer{
-    background-color: #1F2937;
 }
+/* ----------------------quotes-------------------------*/
 .quote{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 110px 305px 90px;
+    flex-wrap: wrap;
+}
+.bywhom{
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+.quote-para{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 8px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* -----------------------footer------------------------ */
+.footer{
+    background-color: #1F2937;
 }
